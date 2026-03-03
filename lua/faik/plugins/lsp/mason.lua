@@ -7,9 +7,9 @@ return {
 	config = function()
 		require("mason").setup()
 
-		require("mason-lspconfig").setup({
-			automatic_installation = true,
-		})
+        require("mason-lspconfig").setup({
+            automatic_enable = true,
+        })
 
 		require("mason-tool-installer").setup({
 			ensure_installed = {

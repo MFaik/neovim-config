@@ -24,6 +24,7 @@ return {
 				-- "black",
 				-- linters
 				-- "eslint_d",
+                "omnisharp",
 			},
 		})
 	end,
